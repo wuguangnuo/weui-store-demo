@@ -1,0 +1,392 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 模板</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.bootcss.com/weui/1.1.2/style/weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/jquery-weui/1.2.0/css/jquery-weui.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/class.css">
+    <link rel="stylesheet" href="css/theme-color.css">
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.0/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header class="zyw-header">
+    <div class="zyw-container white-color">
+        <div class="head-l"><a href="javascript:window.history.back(-1)" target="_self"><img src="picture/head-return.svg" alt=""></a></div>
+        <div class="head-search">
+            <i class="fa fa-search" aria-hidden="true"></i>
+            <input type="text" placeholder="输入您当前要搜索的商品" class="white-color">
+        </div>
+        <div class="head-r"><a href="">取消</a></div>
+    </div>
+</header>
+<footer class="zyw-footer">
+    <div class="zyw-container white-bgcolor">
+        <div class="weui-tabbar">
+            <a href="index.html" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="picture/foot-1.svg" alt="">
+                </div>
+                <p class="weui-tabbar__label">首页</p>
+            </a>
+            <a href="class.html" class="weui-tabbar__item weui-bar__item--on">
+                <div class="weui-tabbar__icon">
+                    <img src="picture/foot-2-1.svg" alt="">
+                </div>
+                <p class="weui-tabbar__label">分类</p>
+            </a>
+            <a href="find.html" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="picture/foot-3.svg" alt="">
+                </div>
+                <p class="weui-tabbar__label">发现</p>
+            </a>
+            <a href="cart.html" class="weui-tabbar__item">
+                <span class="weui-badge" style="position: absolute;top: -.4em;right: 1em;">8</span>
+                <div class="weui-tabbar__icon">
+                    <img src="picture/foot-4.svg" alt="">
+                </div>
+                <p class="weui-tabbar__label">购物车</p>
+            </a>
+            <a href="home.html" class="weui-tabbar__item">
+                <div class="weui-tabbar__icon">
+                    <img src="picture/foot-5.svg" alt="">
+                </div>
+                <p class="weui-tabbar__label">我的</p>
+            </a>
+        </div>
+    </div>
+</footer>
+<section class="zyw-container">
+    <div class="class-cont clearfix">
+        <ul id="myTab" class="nav nav-tabs nav-stacked class-hd">
+            <li class="active"><a href="#nznz" data-toggle="tab">男装女装</a></li>
+            <li><a href="#nxnx" data-toggle="tab">男鞋女鞋</a></li>
+            <li><a href="#nyps" data-toggle="tab">内衣配饰</a></li>
+            <li><a href="#" data-toggle="tab">箱包手袋</a></li>
+            <li><a href="#" data-toggle="tab">美妆个护</a></li>
+            <li><a href="#" data-toggle="tab">钟表珠宝</a></li>
+            <li><a href="#" data-toggle="tab">手机数码</a></li>
+            <li><a href="#" data-toggle="tab">电脑办公</a></li>
+            <li><a href="#" data-toggle="tab">家用电器</a></li>
+            <li><a href="#" data-toggle="tab">食品生鲜</a></li>
+            <li><a href="#" data-toggle="tab">酒水饮料</a></li>
+            <li><a href="#" data-toggle="tab">医药保健</a></li>
+            <li><a href="#" data-toggle="tab">运动户外</a></li>
+            <li><a href="#" data-toggle="tab">家居厨具</a></li>
+            <li><a href="#" data-toggle="tab">汽车用品</a></li>
+            <li><a href="#" data-toggle="tab">图书音像</a></li>
+        </ul>
+        <div id="myTabContent" class="tab-content class-bd white-bgcolor">
+            <div class="tab-pane fade in active" id="nznz">
+                <div class="class-bd-cont">
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">热卖选购</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a0ebc62nec865e68.jpg" alt="">
+                                    <p>时尚羽绒</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a0ebc5cne2bddf32.jpg" alt="">
+                                    <p>保暖棉服</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a0ebc54n07bbacf3.jpg" alt="">
+                                    <p>修身夹克</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a0ebc4en9436e96b.jpg" alt="">
+                                    <p>牛仔裤</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a0e7d9dnbe49c231.jpg" alt="">
+                                    <p>加厚牛仔</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b220n009d72a4.jpg" alt="">
+                                    <p>宽松卫衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a1284e4n5f6ac63d.jpg" alt="">
+                                    <p>连衣裙</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a126a5an99085a6b.jpg" alt="">
+                                    <p>婚纱</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">女装</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b23enbc0d7a47.jpg" alt="">
+                                    <p>新款大衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b234n2259963f.jpg" alt="">
+                                    <p>连衣裙</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b21en10fd877c.jpg" alt="">
+                                    <p>针织衫</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b228nf46f2ff1.jpg" alt="">
+                                    <p>毛衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b220n009d72a4.jpg" alt="">
+                                    <p>宽松卫衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b217n8470eba0.jpg" alt="">
+                                    <p>外套</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12b214na8e5f494.jpg" alt="">
+                                    <p>阔腿裤</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">童装</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12448an04e0b987.jpg" alt="">
+                                    <p>品质童装</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12447fnd3894b27.jpg" alt="">
+                                    <p>套装</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a124475nb3b9efd6.jpg" alt="">
+                                    <p>裙子</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a12445bn917f40bb.jpg" alt="">
+                                    <p>亲子装</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nxnx">
+                <div class="class-bd-cont">
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">流行男鞋</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a139490nc7fa0e4a.jpg" alt="">
+                                    <p>休闲鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a139489n23c871c6.jpg" alt="">
+                                    <p>商务鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13947dn5d024b9f.jpg" alt="">
+                                    <p>正装鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a139564naee94e4a.jpg" alt="">
+                                    <p>帆布鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13945cn82a4c505.jpg" alt="">
+                                    <p>板鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13945an0c00392c.jpg" alt="">
+                                    <p>乐福鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a139429n8c5c158d.jpg" alt="">
+                                    <p>拖鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a139422n611a859c.jpg" alt="">
+                                    <p>传统布鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a139411n2cd65a08.jpg" alt="">
+                                    <p>凉鞋</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">时尚女鞋</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f4c2n878e06ff.jpg" alt="">
+                                    <p>休闲鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f4bbn0109307e.jpg" alt="">
+                                    <p>女靴</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f4b4ndd40587a.jpg" alt="">
+                                    <p>短靴</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f4adn0116fe8b.jpg" alt="">
+                                    <p>马丁靴</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f4a2ndab62821.jpg" alt="">
+                                    <p>帆布鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f483nf8bfdc2a.jpg" alt="">
+                                    <p>高跟鞋</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f446n1df58a24.jpg" alt="">
+                                    <p>通勤OL</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a13f437n94b74f9e.jpg" alt="">
+                                    <p>凉鞋</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="nyps">
+                <div class="class-bd-cont">
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">保暖内衣</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151d25n2927b937.jpg" alt="">
+                                    <p>保暖内衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151c9fncbf87576.jpg" alt="">
+                                    <p>保暖裤</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151c97nf6982faf.jpg" alt="">
+                                    <p>男士保暖</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151c91n7eb33b8a.jpg" alt="">
+                                    <p>女士保暖</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151c8bn96fecb7e.jpg" alt="">
+                                    <p>保暖套装</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151c86na4d59a6e.jpg" alt="">
+                                    <p>秋衣秋裤</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151c7fnbc7f4c1e.jpg" alt="">
+                                    <p>薄款保暖</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">大牌文胸</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151a72n53143ccc.jpg" alt="">
+                                    <p>文胸</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151a6cndc177f6d.jpg" alt="">
+                                    <p>文胸套装</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151a65n45b485d1.jpg" alt="">
+                                    <p>光面文胸</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151a5fn25aee58e.jpg" alt="">
+                                    <p>少女文胸</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151a59nbdabaca6.jpg" alt="">
+                                    <p>大码文胸</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151a53nae33f47f.jpg" alt="">
+                                    <p>薄杯文胸</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bd-box">
+                        <h4 class="bd-box-title">睡衣</h4>
+                        <div class="bd-box-info">
+                            <div class="row">
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151858n4be1dc0d.jpg" alt="">
+                                    <p>女式睡衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151865n76835f4e.jpg" alt="">
+                                    <p>男式睡衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151865n6a6fad17.jpg" alt="">
+                                    <p>情侣睡衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151856n09b4ab99.jpg" alt="">
+                                    <p>全棉睡衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151829nfecff630.jpg" alt="">
+                                    <p>珊瑚绒睡衣</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a1517c4n4ac20e25.jpg" alt="">
+                                    <p>睡裙</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a1517c9n65f06d53.jpg" alt="">
+                                    <p>睡袍</p>
+                                </div>
+                                <div class="col-xs-4 info-item">
+                                    <img src="picture/5a151679ne7ced42c.png" alt="">
+                                    <p>真丝睡衣</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script src="https://cdn.bootcss.com/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/jquery-weui/1.2.0/js/jquery-weui.min.js"></script>
+<script src="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</body>
+</html>
